@@ -9,6 +9,7 @@ const Cards = ({ cards, handleCardClick }) => {
             onClick={() => handleCardClick(card.id)}
           >
             <img src={card.img} alt={idx} />
+            <p>{card.text}</p>
           </div>
         );
       })}
