@@ -6,18 +6,11 @@ import App from "./components/App";
 import "normalize.css";
 import "./styles/index.css";
 
-import cards from "./data/cards";
-import { score, isWon } from "./data/gameInfo";
-
-const data = {
-  cards,
-  score,
-  isWon,
-};
+import unshuffledCards from "./data/unshuffledCards";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App data={data} />
+    <App unshuffledCards={unshuffledCards} />
   </React.StrictMode>,
   document.getElementById("root")
 );
