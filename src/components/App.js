@@ -31,11 +31,15 @@ const App = ({ unshuffledCards }) => {
     return shuffledCards;
   };
 
+  const resetGame = () => {
+    setClickedCards([]);
+    setHighScore(score);
+    setScore(0);
+  };
+
   const handleCardClick = (cardID) => {
     if (clickedCards.some((clickedCard) => clickedCard === cardID)) {
-      setClickedCards([]);
-      setHighScore(score);
-      setScore(0);
+      resetGame();
     } else {
       setScore((prevScore) => prevScore + 1);
       setClickedCards((prevClickedCards) => [...prevClickedCards, cardID]);
