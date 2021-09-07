@@ -38,7 +38,7 @@ const App = ({ unshuffledCards }) => {
   };
 
   const handleCardClick = (cardID) => {
-    if (clickedCards.some((clickedCard) => clickedCard === cardID)) {
+    if (clickedCards.includes(cardID)) {
       resetGame();
     } else {
       setScore((prevScore) => prevScore + 1);
