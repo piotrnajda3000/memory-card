@@ -1,8 +1,8 @@
 {
-  "name": "my-first-react-app",
+  "name": "Memory Card",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://piotrnajda3000.github.io/{repo_name}",
+  "homepage": "http://piotrnajda3000.github.io/memory-card",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
