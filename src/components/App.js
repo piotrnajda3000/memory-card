@@ -1,9 +1,10 @@
 import React from "react";
 import { useEffect, useState } from "react";
 
-import "../styles/App.css";
-
 import buildAvailablePositions from "../helpers/shuffleCards";
+
+import GameInfo from "./GameInfo";
+import Cards from "./Cards";
 
 const App = ({ unshuffledCards }) => {
   const [cards, setCards] = useState(unshuffledCards);
@@ -59,26 +60,8 @@ const App = ({ unshuffledCards }) => {
 
   return (
     <>
-      <div id="gameInfoWrapper">
-        <div id="gameInfo">
-          <div id="scoreCurrent">Current {score}</div>
-          <div id="gameWon">{isWon ? "You won!" : null}</div>
-          <div id="scoreHigh"> Best {highScore} </div>
-        </div>
-      </div>
-      <div id="cardsContainer">
-        {cards.map((card, idx) => {
-          return (
-            <div
-              className="card"
-              key={card.id}
-              onClick={() => handleCardClick(card.id)}
-            >
-              <img src={card.img} alt={idx} />
-            </div>
-          );
-        })}
-      </div>
+      <GameInfo score={score} highScore={highScore} isWon={isWon} />
+      <Cards cards={cards} handleCardClick={handleCardClick} />
     </>
   );
 };
