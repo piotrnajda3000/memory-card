@@ -2,7 +2,7 @@
 
 Made for [TheOdinProject](https://www.theodinproject.com/)'s curriculum.
 
-## [Live Link](https://piotrnajda3000.github.io/memory-card)
+[Live Link](https://piotrnajda3000.github.io/memory-card)
 
 ## Project goal
 
