@@ -1,4 +1,4 @@
-const buildAvailablePositions = (currentPosition, shuffledCards) => {
+const whereCanIPlaceCard = (currentPosition, shuffledCards) => {
   const availablePositions = [...Array(13).keys()];
   availablePositions.splice(currentPosition, 1);
   shuffledCards.forEach((card, position) => {
@@ -10,4 +10,4 @@ const buildAvailablePositions = (currentPosition, shuffledCards) => {
   return availablePositions;
 };
 
-export default buildAvailablePositions;
+export default whereCanIPlaceCard;

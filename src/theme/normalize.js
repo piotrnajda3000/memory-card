@@ -1,4 +1,9 @@
+import { normalize } from "styled-normalize";
+
 const init = `
+
+${normalize}
+
 *,
 *::after,
 *::before {

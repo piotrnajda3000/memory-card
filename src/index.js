@@ -3,10 +3,10 @@ import ReactDOM from "react-dom";
 
 import App from "./components/App";
 
-import unshuffledCards from "./data/unshuffledCards";
+import unshuffledCards from "./whereCanIPlaceCard";
 
 import { ThemeProvider } from "styled-components";
-import Theme from "./theme/Theme.js";
+import Theme from "./theme/Theme";
 import GlobalStyle from "./theme/GlobalStyle";
 
 ReactDOM.render(

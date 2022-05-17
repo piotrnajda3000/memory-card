@@ -1,11 +1,9 @@
 import { createGlobalStyle } from "styled-components";
-import { normalize } from "styled-normalize";
-import init from "./init.js";
+
+import normalize from "./normalize.js";
 
 const GlobalStyle = createGlobalStyle`
   ${normalize}
-
-  ${init} 
   
   body {
     background-color: hsl(0, 0%, ${(props) => props.theme.grayscale[8]});

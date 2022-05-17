@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 
-import buildAvailablePositions from "../helpers/shuffleCards";
+import whereCanIPlaceCard from "../shuffleCards";
 
 import GameInfo from "./GameInfo";
 import Cards from "./Cards";
@@ -16,7 +16,7 @@ const App = ({ unshuffledCards }) => {
   const shuffleCards = (cards) => {
     const shuffledCards = [];
     cards.forEach((card, currentPosition) => {
-      const availablePositions = buildAvailablePositions(
+      const availablePositions = whereCanIPlaceCard(
         currentPosition,
         shuffledCards
       );

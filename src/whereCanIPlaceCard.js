@@ -1,17 +1,17 @@
 import uniqid from "uniqid";
 
-import one from "../assets/1.jpg";
-import two from "../assets/2.jpeg";
-import three from "../assets/3.jpg";
-import four from "../assets/4.jpg";
-import five from "../assets/5.jpg";
-import six from "../assets/6.jpg";
-import seven from "../assets/7.jpg";
-import eight from "../assets/8.jpg";
-import nine from "../assets/9.jpeg";
-import ten from "../assets/10.jpg";
-import eleven from "../assets/11.jpg";
-import twelve from "../assets/12.jpg";
+import one from "./images/1.jpg";
+import two from "./images/2.jpeg";
+import three from "./images/3.jpg";
+import four from "./images/4.jpg";
+import five from "./images/5.jpg";
+import six from "./images/6.jpg";
+import seven from "./images/7.jpg";
+import eight from "./images/8.jpg";
+import nine from "./images/9.jpeg";
+import ten from "./images/10.jpg";
+import eleven from "./images/11.jpg";
+import twelve from "./images/12.jpg";
 
 const Card = (img, text) => {
   return {
