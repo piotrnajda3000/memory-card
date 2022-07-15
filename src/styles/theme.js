@@ -1,11 +1,12 @@
 const theme = {
   colors: {
+    background: "hsl(0, 0%, 94%)",
     icon: {
       light: "white",
       dark: "hsl(0, 0%, 26%)",
     },
   },
-  space: ["4px", "8px", "12px", "16px", "24px", "32px", "45px", "64px"],
+  space: ["4px", "8px", "10px", "12px", "16px", "24px", "32px", "45px", "64px"],
   grayscale: [
     "hsl(0, 0%, 7%)",
     "hsl(0, 0%, 16%)",
