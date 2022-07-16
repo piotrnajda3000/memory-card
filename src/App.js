@@ -10,6 +10,7 @@ import Scoreboard from "./components/Scoreboard";
 import Modal from "./components/Modal";
 
 import { useState } from "react";
+import { helpModal, WinModal } from "./components/modals";
 
 function App() {
   const [game, setGame] = useState({
@@ -27,6 +28,9 @@ function App() {
 
       const hasWon = scoreCurrent === cardsData.length ? true : false;
 
+      // Trigger "Continue?" modal
+      if (hasWon) setIsOpen(true);
+
       setGame({
         scoreCurrent,
         scoreBest,
@@ -43,13 +47,23 @@ function App() {
         hasWon: false,
       });
     },
+    restartGame: () => {
+      setGame({
+        scoreCurrent: 0,
+        scoreBest: 0,
+        hasWon: false,
+      });
+      setIsOpen(false);
+    },
   };
 
   const [isOpen, setIsOpen] = useState(true);
 
   const GameLayout = (
     <>
-      <Modal isOpen={isOpen} onClick={() => setIsOpen(false)} />
+      <Modal iconTop isOpen={isOpen} onClick={() => setIsOpen(false)}>
+        {helpModal}
+      </Modal>
       <Scoreboard
         scoreCurrent={game.scoreCurrent}
         scoreBest={game.scoreBest}
@@ -59,7 +73,11 @@ function App() {
     </>
   );
 
-  const WinLayout = <>Congrats!</>;
+  const WinLayout = (
+    <Modal iconBottom isOpen={isOpen}>
+      <WinModal onIconClick={gameInterface.restartGame} />
+    </Modal>
+  );
 
   return (
     <ThemeProvider theme={theme}>
