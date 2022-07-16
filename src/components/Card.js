@@ -12,17 +12,19 @@ const SCard = styled.div`
   border-radius: 10px;
   ${elevation("medium")};
 
-  // Now props specific to this card
+  // Specific to this card
 
   img {
     border-radius: 10px 10px 0 0;
     transform: scale(0.9);
     transition: transform 0.15s ease-out;
+    height: 300px;
+    object-fit: cover;
   }
 
   .heading {
     font-size: 14px;
-    transform: translateY(-3px);
+    transform: translateY(-5px);
     transition: all 0.15s ease-out;
     color: hsl(0, 0%, 26%);
   }
@@ -40,9 +42,9 @@ const SCard = styled.div`
   }
 `;
 
-export default function Card({ heading, image }) {
+export default function Card({ heading, image, onClick }) {
   return (
-    <SCard>
+    <SCard onClick={() => onClick(image)}>
       <img src={image} />
       <span className="heading">{heading}</span>
       <Spacer axis="y" size="4" />

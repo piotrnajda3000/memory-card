@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components/macro";
-import { css } from "styled-components/macro";
 
 import base from "./_base";
 
