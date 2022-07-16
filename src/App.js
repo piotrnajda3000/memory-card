@@ -7,6 +7,8 @@ import cardsData from "./components/cardsData";
 
 import Scoreboard from "./components/Scoreboard";
 
+import Modal from "./components/Modal";
+
 import { useState } from "react";
 
 function App() {
@@ -43,8 +45,11 @@ function App() {
     },
   };
 
+  const [isOpen, setIsOpen] = useState(true);
+
   const GameLayout = (
     <>
+      <Modal isOpen={isOpen} onClick={() => setIsOpen(false)} />
       <Scoreboard
         scoreCurrent={game.scoreCurrent}
         scoreBest={game.scoreBest}
