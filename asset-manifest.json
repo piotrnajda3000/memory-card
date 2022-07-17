@@ -1,29 +1,22 @@
 {
   "files": {
-    "main.js": "/memory-card/static/js/main.a338b108.chunk.js",
-    "main.js.map": "/memory-card/static/js/main.a338b108.chunk.js.map",
-    "runtime-main.js": "/memory-card/static/js/runtime-main.e771975f.js",
-    "runtime-main.js.map": "/memory-card/static/js/runtime-main.e771975f.js.map",
-    "static/js/2.7945f985.chunk.js": "/memory-card/static/js/2.7945f985.chunk.js",
-    "static/js/2.7945f985.chunk.js.map": "/memory-card/static/js/2.7945f985.chunk.js.map",
+    "main.js": "/memory-card/static/js/main.37fe177e.js",
+    "static/media/10-samosa.jpg": "/memory-card/static/media/10-samosa.108e33cef4fa30472ab7.jpg",
+    "static/media/12-vegan-tofu-tikka-masala.jpg": "/memory-card/static/media/12-vegan-tofu-tikka-masala.3fc604c85c1239553497.jpg",
+    "static/media/5-chicken-tikka-masala.jpg": "/memory-card/static/media/5-chicken-tikka-masala.737ac0825df827eacc7b.jpg",
+    "static/media/7-lamb-curry.jpg": "/memory-card/static/media/7-lamb-curry.e4d1211be3f72b6f03f6.jpg",
+    "static/media/1-aloo-gobi-masala.jpeg": "/memory-card/static/media/1-aloo-gobi-masala.15614cc0dd227bf0d2ec.jpeg",
+    "static/media/9-matar-paneer.jpg": "/memory-card/static/media/9-matar-paneer.be17f3e245c227e821b1.jpg",
+    "static/media/3-butter-chicken.jpg": "/memory-card/static/media/3-butter-chicken.888ceb923f30b1870c81.jpg",
+    "static/media/4-butter-naan.jpg": "/memory-card/static/media/4-butter-naan.3fb8509de8154a856437.jpg",
+    "static/media/11-tandoori-chicken.jpg": "/memory-card/static/media/11-tandoori-chicken.bf4570f9e4a6b6f45c7a.jpg",
+    "static/media/8-masala-chai.jpg": "/memory-card/static/media/8-masala-chai.5d967d3ce48a283785a1.jpg",
+    "static/media/6-garlic-naan.jpg": "/memory-card/static/media/6-garlic-naan.fa55967ee312c2abc960.jpg",
+    "static/media/2-butter-chicken.jpeg": "/memory-card/static/media/2-butter-chicken.57fde20c61eeb1896841.jpeg",
     "index.html": "/memory-card/index.html",
-    "static/js/2.7945f985.chunk.js.LICENSE.txt": "/memory-card/static/js/2.7945f985.chunk.js.LICENSE.txt",
-    "static/media/1.888ceb92.jpg": "/memory-card/static/media/1.888ceb92.jpg",
-    "static/media/10.fa55967e.jpg": "/memory-card/static/media/10.fa55967e.jpg",
-    "static/media/11.3fb8509d.jpg": "/memory-card/static/media/11.3fb8509d.jpg",
-    "static/media/12.bf4570f9.jpg": "/memory-card/static/media/12.bf4570f9.jpg",
-    "static/media/2.15614cc0.jpeg": "/memory-card/static/media/2.15614cc0.jpeg",
-    "static/media/3.108e33ce.jpg": "/memory-card/static/media/3.108e33ce.jpg",
-    "static/media/4.bcd63d2e.jpg": "/memory-card/static/media/4.bcd63d2e.jpg",
-    "static/media/5.3fc604c8.jpg": "/memory-card/static/media/5.3fc604c8.jpg",
-    "static/media/6.e4d1211b.jpg": "/memory-card/static/media/6.e4d1211b.jpg",
-    "static/media/7.5d967d3c.jpg": "/memory-card/static/media/7.5d967d3c.jpg",
-    "static/media/8.737ac082.jpg": "/memory-card/static/media/8.737ac082.jpg",
-    "static/media/9.57fde20c.jpeg": "/memory-card/static/media/9.57fde20c.jpeg"
+    "main.37fe177e.js.map": "/memory-card/static/js/main.37fe177e.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.e771975f.js",
-    "static/js/2.7945f985.chunk.js",
-    "static/js/main.a338b108.chunk.js"
+    "static/js/main.37fe177e.js"
   ]
 }
